@@ -1,0 +1,19 @@
+.button {
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+  font-weight: 500;
+  color: white;
+  background-color: #2563eb;
+}
+
+.button:hover {
+  background-color: #1d4ed8;
+}
+
+.secondary {
+  background-color: #6b7280;
+}
+
+.secondary:hover {
+  background-color: #4b5563;
+}
