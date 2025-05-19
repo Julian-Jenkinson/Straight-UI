@@ -15,7 +15,7 @@ const config = {
   // Add this to tell Storybook about your base path:
   staticDirs: ['../public'], // optional if you have static assets
   viteFinal: (config) => {
-    config.base = '/straight-ui/';  // your repo name here
+    config.base = '/Straight-UI/';  // your repo name here
     return config;
   },
 };
