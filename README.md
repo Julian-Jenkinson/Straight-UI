@@ -56,5 +56,8 @@ export default tseslint.config({
 npm run dev         # start the development environment and install dependencies
 npm run build       # to test build process locally before publishing
 npm run storybook   # start the storybook development server
-npm run build-storybook # This will create a storybook-static folder with all your built Storybook files.
-npm run deploy-storybook  # deploy to github pages
+
+npm run build-storybook   # Builds Storybook into the storybook-static folder
+npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages
+after deploying it will be available at: https://julian-jenkinson.github.io/Straight-UI/
+

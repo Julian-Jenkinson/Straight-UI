@@ -17,11 +17,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "build-storybook -o storybook static",
+    "build-storybook": "storybook build -o storybook-static",
     
-    "predeploy-storybook": "npm run build-storybook",
-    "deploy-storybook": "gh-pages -d storybook-static",
-    
+    "deploy-storybook": "gh-pages -d storybook-static --branch=gh-pages --message='deploy storybook'",
+
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
