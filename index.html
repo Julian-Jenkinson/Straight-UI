@@ -67,8 +67,13 @@
     <link href="./sb-addons/interactions-9/manager-bundle.js" rel="modulepreload" />
     
     <link href="./sb-addons/a11y-10/manager-bundle.js" rel="modulepreload" />
-      <base href="/Straight-UI/" />
- 
+      <script>
+  if (window.location.hostname === 'julian-jenkinson.github.io') {
+    const base = document.createElement('base');
+    base.href = '/Straight-UI/';
+    document.head.appendChild(base);
+  }
+</script> 
 
     <style>
       #storybook-root[hidden] {
