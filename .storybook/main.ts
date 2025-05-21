@@ -6,16 +6,17 @@ const config = {
     '../src/stories/**/*.mdx'
   ],
   
-  addons: ['@storybook/addon-essentials'],
+  addons: [
+    '@storybook/addon-essentials',
+    '@storybook/addon-interactions',
+    '@storybook/addon-a11y',
+  ],
   framework: {
     name: '@storybook/react-vite',
     options: {},
   },
-  core: {
-    builder: '@storybook/builder-vite',
-  },
   typescript: {
-    reactDocgen: 'react-docgen-typescript',
+    reactDocgen: 'react-docgen',
   },
   staticDirs: ['../public'], // if you have static assets
   viteFinal: (config) => {

@@ -1,12 +1,16 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ],
   "compilerOptions": {
-    "declaration": true,
-    "declarationDir": "dist/types",
-    "emitDeclarationOnly": true
-  }
+    "target": "ES5",                      // compatible with most browsers
+    "module": "ESNext",                   // leave module syntax for bundlers or tools
+    "jsx": "react",                      // compile JSX
+    "declaration": true,                 // generate .d.ts files (important for TS users)
+    "declarationMap": true,
+    "outDir": "dist",                    // output directory for compiled files
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node"
+  },
+  "include": ["src/**/*"]
 }

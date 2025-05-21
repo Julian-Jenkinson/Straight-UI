@@ -54,7 +54,7 @@ export default tseslint.config({
 ```
 
 npm run dev         # start the development environment and install dependencies
-npm run build       # to test build process locally before publishing
+npm run build       # Run the build process and output the UI lib to dist/
 npm run storybook   # start the storybook development server
 
 npm run build-storybook   # Builds Storybook into the storybook-static folder

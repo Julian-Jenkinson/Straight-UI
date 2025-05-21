@@ -1,10 +1,25 @@
-import type { ReactNode } from 'react';
+import React from 'react';
+import styles from './Button.module.css'; // ✅ Import the module
+
 
 export type ButtonProps = {
-  children: ReactNode;
+  label: React.ReactNode;
+  primary?: boolean;
   onClick?: () => void;
+  ariaLabel?: string;
 };
 
-export const Button = ({ children, onClick }: ButtonProps) => {
-  return <button onClick={onClick}>{children}</button>;
+export const Button: React.FC<ButtonProps> = ({ label, primary = true, onClick, ariaLabel }) => {
+  const typeClass = primary ? styles.primary : styles.secondary;
+  const className = `${styles.button} ${typeClass}`;
+
+  return (
+    <button
+      className={className}
+      onClick={onClick}
+      aria-label={ariaLabel}
+    >
+      {label}
+    </button>
+  );
 };
