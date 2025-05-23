@@ -22,10 +22,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    
     "build-storybook": "storybook build -o storybook-static",
-    "deploy-storybook": "npm run build-storybook && touch storybook-static/.nojekyll && gh-pages -d storybook-static --branch=gh-pages --message='deploy storybook'",
-
+    "deploy-storybook": "npm run build-storybook && gh-pages -d storybook-static --branch=gh-pages --message='deploy storybook'",
     
     "predeploy": "npm run build",
     "deploy-ui-lib": "gh-pages -d dist"
