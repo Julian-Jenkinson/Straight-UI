@@ -3,7 +3,7 @@ Straight-UI is a modern, React-based UI component library built for fast, flexib
 
 Explore the UI components in the [Storybook for Straight-UI](https://Julian-Jenkinson.github.io/Straight-UI/).
 
-Download the package on NPM: [website]
+Download the package [Via NPM](https://www.npmjs.com/package/straight-ui)
 
 ## Features 💥
 - **Storybook** - For component showcase
@@ -13,7 +13,7 @@ Download the package on NPM: [website]
 ## Technology ✨ 
 **Frontend** - React, TypeScript, JavaScript 
 
-**Ops** - Storybook, Vite, Rollup, Github
+**Ops** - Storybook, NPM, Vite, Rollup, Github
 
 ##  Deployment 💫
 
@@ -34,6 +34,6 @@ npm run storybook         # Start the storybook development server
 npm run build-storybook   # Builds Storybook into the storybook-static folder
 npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages Julian-Jenkinson/Straight-UI/
 
-npm run deploy-package    # Currently unconfigured
+npm publish               # Publishes the UI library to NPM
 
 ```
