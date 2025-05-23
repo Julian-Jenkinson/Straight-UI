@@ -1,10 +1,14 @@
 # Straight-UI
 A react based component user interface library availble for TypeScript and JavaScript applications
 
+Storybook:      Julian-Jenkinson/Straight-UI/
+
+Straight-UI:    website
+
 ## Features 💥
-- **Storybook** - For component showcase, storybook is available at Julian-Jenkinson/Straight-UI/
-- **TypeScript and JavaScript** - Support for TS and JS  
-- **Published to NPM** - The package is published to NPM
+- **Storybook** - For component showcase
+- **TypeScript and JavaScript** - Built in Typescript and support for JavaScript applications 
+- **Published to NPM** - The package is published publicly to NPM
 - **?** - ?
 - **?** - ?
 
@@ -21,22 +25,19 @@ Straight-UI is avaliable via NPM
 
 ## Development ⭐
 
-To run the project locally:
+To work on this project, use the following commands:
 
-```bash
-npm install       # Install dependencies
-npm dev           # Start the development server
 ```
+npm install               # Install dependencies
 
-
-
-
-
-npm run dev         # start the development environment and install dependencies
-npm run build       # Run the build process and output the UI lib to dist/
-npm run storybook   # start the storybook development server
+npm run build             # Build the UI package and output to dist/
+npm run storybook         # Start the storybook development server
 
 npm run build-storybook   # Builds Storybook into the storybook-static folder
-npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages
-after deploying it will be available at: https://julian-jenkinson.github.io/Straight-UI/
+npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages Julian-Jenkinson/Straight-UI/
 
+#npm deploy-package  currently unconfigured
+
+```
+
+## How to use ⭐
