@@ -1,9 +1,9 @@
 # Straight-UI
 A react based component user interface library availble for TypeScript and JavaScript applications
 
-Storybook:      Julian-Jenkinson/Straight-UI/
+Explore the UI components in the [Storybook for Straight-UI](https://Julian-Jenkinson.github.io/Straight-UI/).
 
-Straight-UI:    website
+Download the package on NPM: [website]
 
 ## Features 💥
 - **Storybook** - For component showcase
