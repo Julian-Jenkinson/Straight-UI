@@ -1,5 +1,5 @@
 # Straight-UI (IN DEVELOPMENT)
-A react based component user interface library availble for TypeScript and JavaScript applications
+Straight-UI is a modern, React-based UI component library built for fast, flexible development in both TypeScript and JavaScript projects.
 
 Explore the UI components in the [Storybook for Straight-UI](https://Julian-Jenkinson.github.io/Straight-UI/).
 
