@@ -1,63 +1,39 @@
-# React + TypeScript + Vite
+# Straight-UI (IN DEVELOPMENT)
+Straight-UI is a modern, React-based UI component library built for fast, flexible development in both TypeScript and JavaScript projects.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Explore the UI components in the [Storybook for Straight-UI](https://Julian-Jenkinson.github.io/Straight-UI/).
 
-Currently, two official plugins are available:
+Download the package on NPM: [website]
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features 💥
+- **Storybook** - For component showcase
+- **TypeScript and JavaScript** - Built in Typescript and support for JavaScript applications 
+- **Published to NPM** - The package is published publicly to NPM
 
-## Expanding the ESLint configuration
+## Technology ✨ 
+**Frontend** - React, TypeScript, JavaScript 
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+**Ops** - Storybook, Vite, Rollup, Github
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+##  Deployment 💫
+
+Storybook is hosted on GitHub Pages
+
+Straight-UI is avaliable via NPM
+
+## Development ⭐
+
+To work on this project, use the following commands:
+
 ```
+npm install               # Install dependencies
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
-
-npm run dev         # start the development environment and install dependencies
-npm run build       # Run the build process and output the UI lib to dist/
-npm run storybook   # start the storybook development server
+npm run build             # Build the UI package and output to dist/
+npm run storybook         # Start the storybook development server
 
 npm run build-storybook   # Builds Storybook into the storybook-static folder
-npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages
-after deploying it will be available at: https://julian-jenkinson.github.io/Straight-UI/
+npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages Julian-Jenkinson/Straight-UI/
 
+npm run deploy-package    # Currently unconfigured
+
+```
