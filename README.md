@@ -9,8 +9,6 @@ Download the package on NPM: [website]
 - **Storybook** - For component showcase
 - **TypeScript and JavaScript** - Built in Typescript and support for JavaScript applications 
 - **Published to NPM** - The package is published publicly to NPM
-- **?** - ?
-- **?** - ?
 
 ## Technology ✨ 
 **Frontend** - React, TypeScript, JavaScript 
@@ -39,5 +37,3 @@ npm run deploy-storybook  # Publishes the built Storybook to GitHub Pages Julian
 #npm deploy-package  currently unconfigured
 
 ```
-
-## How to use ⭐
