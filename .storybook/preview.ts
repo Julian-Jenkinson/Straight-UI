@@ -1,9 +1,8 @@
-import type { Preview } from '@storybook/react'
+import type { Preview } from '@storybook/react';
 
 const preview: Preview = {
   parameters: {
     a11y: {
-      // axe-core options
       config: {
         rules: [
           { id: 'color-contrast', enabled: true },
@@ -12,8 +11,13 @@ const preview: Preview = {
     },
     controls: {
       matchers: {
-       color: /(background|color)$/i,
-       date: /Date$/i,
+        color: /(background|color)$/i,
+        date: /Date$/i,
+      },
+    },
+    options: {
+      storySort: {
+        order: ['Getting Started','Colours', 'Components'], // Ensures Introduction comes first
       },
     },
   },
